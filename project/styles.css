@@ -1,0 +1,223 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.logo {
+    width: 150px;
+}
+
+.try-free {
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #555;
+}
+
+.get-started {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.mockup {
+    width: 80%;
+    max-width: 800px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat img {
+    width: 50px;
+}
+
+.number {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 1rem;
+    color: #555;
+}
+
+.features {
+    padding: 50px 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+    padding: 0 20px;
+}
+
+.feature.bg-grey {
+    background-color: #f6f6f6;
+    padding: 0;
+    position: relative;
+}
+
+.feature .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.feature img {
+    width: 40%;
+    max-width: 400px;
+}
+
+.feature .text {
+    width: 50%;
+    text-align: left;
+}
+
+.curve-top, .curve-bottom {
+    width: 100%;
+    display: block;
+}
+
+.curve-top {
+    margin-bottom: -1px;
+}
+
+.curve-bottom {
+    margin-top: -1px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.cta {
+    padding: 100px 20px;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-top {
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact, .newsletter {
+    width: 45%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.huddle-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.huddle-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.newsletter button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

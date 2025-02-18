@@ -149,3 +149,5 @@ const users=[
   .filter((user)=>user.age>24)
   
   console.log(ageFilter)
+
+  
